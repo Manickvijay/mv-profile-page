@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mv profile page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="bdy">
+
+    <nav>
+        <div class="navebar" id="navbar"  >
+            <div class="nav-title">
+                <h4>Mv profile</h4>
+            </div>
+            <div class="nav-list">
+                <a href="#work" ><p>Home</p></a>
+                <a href="#about"><p onclick="aboutmove()">About</p></a>
+                <a href="#resume"><p>Resume</p></a>
+                <a href="#project"><p  onclick="projectmove()">Projects</p></a>
+                <a href="#contact"><p>Contact</p></a>
+          </div>
+       
+         
+         
+        </div>
+     <div class="menu-nav-list" id="menu-nav-list">
+      <a href="#work" onclick="menulistclick()"><p>Home</p></a>
+      <a href="#about" onclick="menulistclick()"> <p onclick="aboutmove()">About</p></a>
+      <a href="#resume" onclick="menulistclick()"><p>Resume</p></a>
+      <a href="#project" onclick="menulistclick()"><p  onclick="projectmove()">Projects</p></a>
+      <a href="#contact" onclick="menulistclick()"><p id="cm">Contact</p></a>
+      <div id="empty" hidden="true" ></div>  
+    </div>
+ 
+   </nav>
+
+   <div id="menu" > 
+    <img id="menu-img"  src="img/icon/menu.svg">
+  </div>
+
+  <div class="bgimg" id="work">
+    <div class="work">
+    <p >Manickavasagam A</p>
+   <p id="changepro"></p>
+  </div>
+</div>
+  <div class="about" id="about">
+    <p>ABOUT</p>
+    <hr>
+    <br>
+    <p style=" font-family: normaltext;">Computer science graduate eager to apply knowledge and skills to software development. Strong foundation in Java, eager to learn and grow.I am a collaborative and creative software developer, experienced in HTML, CSS, JavaScript, and various front-end frameworks. I develop dynamic and responsive interfaces that provide an optimal user experience.</p>
+    <br>
+    <div class="img-about" >
+       <img  id="ani" src="img/profile-img.jpg">
+       <div class="dev" id="dev">
+        <p>Developer</p>
+        <p style=" font-family: normaltext;"> Motivated and hardworking individual with a passion for software development seeks hands-on experience with a team of professionals. Strong understanding of software development concepts and eagerness to learn new technologies.</p>
+         <div class="list">
+          <ul>
+            <li style="font-family: normaltext;"><strong style="font-family: pagetitle; font-weight: 100;"><span style="font-size:20px; color:rgb(4, 103, 103);">&#164; </span> Birthday:</strong> 19 Aug 2002</li>
+            <li style="font-family: normaltext;"><strong  style="font-family: pagetitle; font-weight: 100;"><span style="font-size:20px; color:rgb(4, 103, 103);">&#164; </span>Website:</strong><a href="#"> mvprofile.netlify.app</a> </li>
+            <li style="font-family: normaltext;"><strong style="font-family: pagetitle; font-weight: 100;"><span style="font-size:20px; color:rgb(4, 103, 103);">&#164; </span>Phone:</strong> +91 6379123205 </li>
+            <li style="font-family: normaltext;"><strong style="font-family: pagetitle; font-weight: 100; "><span style="font-size:20px; color:rgb(4, 103, 103);">&#164; </span>City:</strong> Karur,Tamilnadu,India </li>
+              </ul>
+          <ul>
+            <li style="font-family: normaltext;"><strong style="font-family: pagetitle; font-weight: 100;"><span style="font-size:20px; color:rgb(4, 103, 103);">&#164; </span>Age:</strong> 21 </li>
+            <li style="font-family: normaltext;"><strong style="font-family: pagetitle; font-weight: 100;"><span style="font-size:20px; color:rgb(4, 103, 103);">&#164; </span>Degree:</strong> Master</li>
+            <li style="font-family: normaltext;"><strong style="font-family: pagetitle; font-weight: 100;"><span style="font-size:20px; color:rgb(4, 103, 103);">&#164; </span>Email:</strong> manickvijay596@gmail.com</li>
+            <li style="font-family: normaltext;"><strong style="font-family: pagetitle; font-weight: 100;"><span style="font-size:20px; color:rgb(4, 103, 103);">&#164; </span>Freelance:</strong> Available </li>
+            </ul>
+         </div>
+         <br>
+      </div>
+      
+    </div>
+  </div>
+  <div class="resume" id="resume" >
+    <p>RESUME</p>
+    <hr>
+    <div class="resume-contain" >
+      <iframe  class="resume-frame"  src="https://www.canva.com/design/DAGN_XMKqIw/UqBnmE8Tm1Sw8CFGpxLe0g/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen"></iframe>
+    </div>
+  
+    
+  </div>
+  <div class="project" id="project">
+    <p>PROJECTS</p>
+    <hr>
+    <p class="web"  style="font-family: normaltext;">Web apps</p>
+    <div class="webapps ">
+      <a href="project1.html" style="color: black;">  <div class="webapp-1 " id="w1">
+     <h4>FOOD DELIVERY</h4>
+      <img class="app-img"src="img/delivery-app.png">
+    </div></a>
+    <a href="project2.html" style="color: black;"> <div class="webapp-2 " id="w2">
+      <h4>MV CALCULATOR</h4>
+      <img class="app2-img" src="img/mvcalculator.png">
+    </div></a>
+  </div>
+  <p class="web" style="font-family: normaltext;" >Web pages</p>
+  <div class="webpages">
+    <div class="webpage">
+      <a href="projects/mini project 3/index.html" style="color: black;"><h4>Google Form</h4></a>
+    </div>
+    <div class="webpage">
+      <a href="projects/mini project 2/index.html" style="color: black;"><h4>Navigation Bar</h4></a>
+    </div>
+    <div class="webpage">
+      <a href="" style="color: black;"><h4>APP NAME 2</h4></a>
+    </div>
+    <div class="webpage">
+      <a href="" style="color: black;"><h4>APP NAME 2</h4></a>
+    </div>
+  </div>
+  <br>
+  <br>
+  </div>
+  <!---------------contact---------------->
+  <div class="contact" id="contact">
+     <p>CONTACT</p>
+     <hr>
+  
+      <p style=" font-family: normaltext;">If you need any help, please leave a message below</p>
+      <div class="container">
+      <div class="location">
+        <strong><div class="loc"><img src="img/icon/location.svg"></div>Location: </strong>
+        <h5>1/80 Nadu street, sathiyamanigalam, kulithalai, karur, 639120</h5>
+        <strong ><div class="mail"><img src="img/icon/maill.svg"></div>Email: </strong>
+        <h5>manickavijay596@gmail.com</h5>
+        <strong ><div class="call"><img src="img/icon/call.svg"></div>Call: </strong>
+        <h5>+91 6379123205</h5>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15671.63903940361!2d78.3992656!3d10.8944625!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baa442d43776143%3A0xb519214f2d1a8a6!2sV9VX%2BQPJ%2C%20Sathiyamangalam%2C%20Tamil%20Nadu%20639120!5e0!3m2!1sen!2sin!4v1705641504668!5m2!1sen!2sin" frameborder="0"  allowfullscreen></iframe>
+      </div>
+      <div class="feedback">
+        <form action="" method="get">
+         
+          <input name="name"  class="name" type="text" required>
+          <label class="namel" for="user">Name</label>
+          <input name="email" class="email" type="text" required>
+          <label class="emaill" for="email">Email</label>
+          <input name="subject" class="subject" type="text" required>
+          <label class="subjectl" for="subject">Subject</label>         
+          <textarea class="message" name="message" rows="13" required></textarea>
+          <label class="mess" for="message">Message</label>
+          <button type="submit" >Submit</button>
+        </form>
+     
+     </div>
+     </div>
+   
+  </div>
+  <footer>
+   
+    <div style=" font-family: normaltext; font-size:smaller">&#169 MV OFFICIAL</div>
+    <div class="socialmedia">
+      <a href="https://www.instagram.com/call_me_a_legend_/profilecard/?igsh=b2tla2pld2VscWtk"><img  style="width: 16px; height: 16px; color: white;" src="img/icon/insta.svg"></a>
+      <a href="https://wa.me/qr/AZDJ3LEKE4EOO1"><img  style="width: 16px; height: 16px;" src="img/icon/whatsapp.svg"></a>
+      <a href="https://x.com/call_me_MV_?t=HPnJyhWH9R9iQ1O9TdwShQ&s=08"><img  style="width: 16px; height: 16px;" src="img/icon/x-twitter.svg"></a>
+     </div>  
+  </footer>
+ 
+</body>
+<script src="script.js"></script>
+
+</html>
