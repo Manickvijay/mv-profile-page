@@ -1,0 +1,129 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+@font-face {
+  font-family: myfont;
+  src: url(../../fonts/Silver.ttf);
+}
+@font-face {
+  font-family: myfont2;
+  src: url(../../fonts/DubTone.ttf);
+}
+nav{
+  display: flex;
+  padding:10px 10px ;
+  background-color: black;
+  align-items: center;
+  justify-content: right;
+  color: whitesmoke;
+  flex-wrap: wrap ;
+  row-gap: 5px;
+  
+}
+ul{
+  display: flex;
+  transform: skew(-25deg);
+ flex-basis: 400px;
+ border-radius: 10px;
+  justify-content: center;
+}
+ul>li{
+   list-style: none;
+        background-color: grey;
+    padding: 15px 15px;
+      
+
+
+}
+a{
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: 400;
+
+}
+
+ul>li:nth-child(2):hover{
+  background-color: orangered;
+}
+ul>li:nth-child(1):hover {
+  background-color: orangered;
+}
+ul>li:nth-child(3):hover {
+  background-color: orangered;
+}
+ul>li:nth-child(4):hover {
+  background-color: orangered;
+}
+ul>li:nth-child(4){
+  border-radius: 0 4px 4px 0;
+}
+ul>li:nth-child(1){
+    border-radius: 4px 0 0 4px;
+}
+
+.but{
+  background-color: lightseagreen;
+  border-style: none;
+    border-radius: 7px;
+    padding: 10px 0 10px 7px;
+flex-basis: 100px;
+ text-transform: uppercase;
+  font-weight: bold;
+  color: whitesmoke;
+  letter-spacing: 2px;
+
+    font-family: myfont;
+   
+}
+.ltex{
+  font-size: 30px;
+  font-weight: bold;
+  font-family: myfont2;
+  letter-spacing: 2px;
+    flex-basis: 400px;
+}
+
+/*loading css*/
+
+.load{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap:30px;
+}
+.lvalue{
+  padding: 20px 20px;
+  border: 2px solid lightgrey;
+  border-radius: 100px;
+  border-top: 2px solid gray;
+  
+  animation: mv 2s ease-out 0.4s infinite;
+}
+@keyframes mv{
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+p{
+  font-size: 20px;
+  font-family: myfont;
+  font-weight: 400;
+  letter-spacing: 3px  ;
+}
+
+@media screen and (max-width: 600px){
+  p {
+    font-size: 10px;
+    letter-spacing: 3px;
+  }
+}

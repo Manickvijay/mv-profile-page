@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
+}
+.menu_container{
+  height: 40px;
+  width: 40px;
+  display: flex;
+}
+.menu{
+  position: absolute;
+  top:47%;
+  left:45%;
+  transition: all .7s ease-out;
+}
+img{
+  height: 40px;
+  width: 40px;
+}
+.act>img{
+     border-radius: 20px;
+   box-shadow: 0 0 20px darkturquoise;
+
+}
+.move1.act{
+  margin: 80px;
+  
+}
+.move2.act{
+  margin: 110px 0 0 0;
+
+}
+.move3.act{
+   margin: -80px;
+
+}
+.move4.act{
+    margin: -110px 0 0 0;
+
+}
+.move5.act{
+  margin: 0 0 0 110px;
+
+}
+.move6.act {
+  margin: 0 0 0 -110px;
+}
+.move7.act{
+  margin: -80px 80px;
+}
+.move8.act{
+  margin: 80px -80px;
+}
